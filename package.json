@@ -1,0 +1,28 @@
+{
+  "name": "next-source-demo",
+  "private": true,
+  "homepage": "https://github.com/easyops-cn/next-source-demo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:easyops-cn/next-source-demo.git"
+  },
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "brick-container-serve --no-remote --local-micro-apps=demo"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@next-bricks/basic": "^0.17.4",
+    "@next-bricks/containers": "^0.9.6",
+    "@next-bricks/form": "^0.13.1",
+    "@next-bricks/icons": "^0.3.3",
+    "@next-bricks/shoelace": "^0.4.9",
+    "@next-core/brick-container": "^3.4.4",
+    "@types/node": "^16.18.14",
+    "js-yaml": "^3.14.1"
+  }
+}
